@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Data Studio",
+  title: "The Spiral",
   description: "Pudding-style interactive data essays about taste, culture, and behavior.",
+  icons: { icon: "/favicon.png" },
 };
 
 export default function RootLayout({
